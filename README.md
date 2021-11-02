@@ -59,8 +59,8 @@ const result = await yourToken.transfer( "**YOUR FRONTEND ADDRESS**", ethers.uti
 
 #### 🥅 Goals
 
-- [ ] Can you check the `balanceOf()` your frontend address in the **YourContract** of the `Debug Contracts` tab?
-- [ ] Can you `transfer()` your token to another account and check *that* account's `balanceOf`?
+- [X] Can you check the `balanceOf()` your frontend address in the **YourContract** of the `Debug Contracts` tab?
+- [X] Can you `transfer()` your token to another account and check *that* account's `balanceOf`?
 
 (Use an incognito window to create a new address and try sending to that new address. Use the `transfer()` function in the `Debug Contracts` tab.)
 
@@ -96,10 +96,10 @@ await vendor.transferOwnership("**YOUR FRONTEND ADDRESS**");
 - [X] Does the `Vendor` address start with a `balanceOf` **1000** in `YourToken` on the `Debug Contracts` tab?
 - [X] Can you buy **10** tokens for **0.01** ETH?
 - [X] Can you transfer tokens to a different account?
-- [ ] Can the `owner` withdraw the ETH from the `Vendor`?
+- [X] Can the `owner` withdraw the ETH from the `Vendor`?
 
 #### ⚔️ Side Quests
-- [ ] Can *anyone* withdraw? Test *everything*!
+- [X] Can *anyone* withdraw? Test *everything*!
 - [ ] What if you minted **2000** and only sent **1000** to the `Vendor`?
 
 
